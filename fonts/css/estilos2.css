@@ -5,6 +5,10 @@ p { color: #555; }
  
 /* Solo los párrafos contenidos en #primero */
 #primero p { color: #336699; }
+
+#primero a { color: chartreuse;
+            font-size: 18px;
+            font-weight: bolder;}
  
 /* Todos los enlaces la pagina */
 a { color: #CC3300; }
@@ -13,7 +17,9 @@ a { color: #CC3300; }
 #primero em { background: #FFFFCC; padding: .1em; }
  
 /* Todos los elementos em de tipo especial en toda la pagina */
-em { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+em { background: #FFCC99; 
+    border: 1px solid #FF9900; 
+    padding: .1em; }
 
  
 /* Elementos span contenidos en .normal */
